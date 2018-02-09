@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="smoke" duration-ms="59268" started-at="2018-02-04T07:43:41Z" finished-at="2018-02-04T07:44:40Z">
+    <groups>
+    </groups>
+    <test name="Verify login functionality by passing valid username and password" duration-ms="24516" started-at="2018-02-04T07:43:41Z" finished-at="2018-02-04T07:44:06Z">
+      <class name="org.ejagruti.finsys.testcases.US_SBDC_1000_TC001">
+        <test-method status="PASS" signature="ExecuteTestCase()[pri:0, instance:org.ejagruti.finsys.testcases.US_SBDC_1000_TC001@1ae369b7]" name="ExecuteTestCase" duration-ms="24348" started-at="2018-02-04T13:13:41Z" finished-at="2018-02-04T13:14:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTestCase -->
+      </class> <!-- org.ejagruti.finsys.testcases.US_SBDC_1000_TC001 -->
+    </test> <!-- Verify login functionality by passing valid username and password -->
+    <test name="User having Valid Role (CFO/FM) should be on the Home Page after performing successful Login operation" duration-ms="34710" started-at="2018-02-04T07:44:06Z" finished-at="2018-02-04T07:44:40Z">
+      <class name="org.ejagruti.finsys.testcases.US_SBDC_1001_TC002">
+        <test-method status="PASS" signature="ExecuteTestCase()[pri:0, instance:org.ejagruti.finsys.testcases.US_SBDC_1001_TC002@23223dd8]" name="ExecuteTestCase" duration-ms="34477" started-at="2018-02-04T13:14:06Z" finished-at="2018-02-04T13:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTestCase -->
+      </class> <!-- org.ejagruti.finsys.testcases.US_SBDC_1001_TC002 -->
+    </test> <!-- User having Valid Role (CFO/FM) should be on the Home Page after performing successful Login operation -->
+  </suite> <!-- smoke -->
+</testng-results>

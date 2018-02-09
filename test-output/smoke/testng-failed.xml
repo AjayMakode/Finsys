@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [smoke]">
+  <parameter name="testcaseid" value="US_SBDC_1000_TC001"/>
+  <parameter name="date" value=""/>
+  <parameter name="owner" value="Ajay"/>
+  <parameter name="note" value="Verify login functionality by passing valid username and password"/>
+  <parameter name="requestid" value="US-SBDC-1000"/>
+  <parameter name="exclude" value="US_SBDC_1000_TC001"/>
+  <parameter name="execute" value="y"/>
+  <listeners>
+    <listener class-name="org.ejagruti.finsys.listener.TestCaseListener"/>
+    <listener class-name="org.ejagruti.finsys.listener.TestSuitListener"/>
+  </listeners>
+  <test name="Verify login functionality by passing valid username and password(failed)">
+    <parameter name="testcaseid" value="US_SBDC_1000_TC001"/>
+    <parameter name="date" value=""/>
+    <parameter name="owner" value="Ajay"/>
+    <parameter name="note" value="Verify login functionality by passing valid username and password"/>
+    <parameter name="requestid" value="US-SBDC-1000"/>
+    <parameter name="execute" value="y"/>
+    <classes>
+      <class name="org.ejagruti.finsys.testcases.US_SBDC_1000_TC001">
+        <methods>
+          <include name="ExecuteTestCase"/>
+        </methods>
+      </class> <!-- org.ejagruti.finsys.testcases.US_SBDC_1000_TC001 -->
+    </classes>
+  </test> <!-- Verify login functionality by passing valid username and password(failed) -->
+</suite> <!-- Failed suite [smoke] -->

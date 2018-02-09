@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [smoke]">
+  <parameter name="testcaseid" value="US_SBDC_1001_TC002"/>
+  <parameter name="date" value=""/>
+  <parameter name="owner" value="Ajay"/>
+  <parameter name="note" value=""/>
+  <parameter name="requestid" value="US-SBDC-1001"/>
+  <parameter name="exclude" value="US_SBDC_1000_TC001"/>
+  <parameter name="execute" value="n"/>
+  <listeners>
+    <listener class-name="org.ejagruti.finsys.listener.TestCaseListener"/>
+    <listener class-name="org.ejagruti.finsys.listener.TestSuitListener"/>
+  </listeners>
+  <test name="Verify login functionality by passing valid username and password">
+    <parameter name="testcaseid" value="US_SBDC_1000_TC001"/>
+    <parameter name="date" value=""/>
+    <parameter name="owner" value="Ajay"/>
+    <parameter name="note" value="Verify login functionality by passing valid username and password"/>
+    <parameter name="requestid" value="US-SBDC-1000"/>
+    <parameter name="execute" value="y"/>
+    <classes>
+      <class name="org.ejagruti.finsys.testcases.US_SBDC_1000_TC001"/>
+    </classes>
+  </test> <!-- Verify login functionality by passing valid username and password -->
+  <test name="User having Valid Role (CFO/FM) should be on the Home Page after performing successful Login operation">
+    <parameter name="testcaseid" value="US_SBDC_1001_TC002"/>
+    <parameter name="date" value=""/>
+    <parameter name="owner" value="Ajay"/>
+    <parameter name="note" value=""/>
+    <parameter name="requestid" value="US-SBDC-1001"/>
+    <parameter name="execute" value="n"/>
+    <classes>
+      <class name="org.ejagruti.finsys.testcases.US_SBDC_1001_TC002"/>
+    </classes>
+  </test> <!-- User having Valid Role (CFO/FM) should be on the Home Page after performing successful Login operation -->
+</suite> <!-- Failed suite [smoke] -->
